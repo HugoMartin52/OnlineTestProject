@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b030d7ad98f9a3d4f8b4adc2506af322, type: 3}
+  m_Name: BouleDeFeu
+  m_EditorClassIdentifier: 
+  aName: Boule de feu
+  cooldown: 5
+  smartCast: 1
+  isLaucherSource: 0
+  projectile: {fileID: 1790013909228602, guid: 9661f99c4a61a8b40b2f19bf1e82b49f, type: 2}
+  velocity: 10

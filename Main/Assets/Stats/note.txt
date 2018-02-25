@@ -1,0 +1,4 @@
+Stats -> Use to control statistics during the game
+StatsScript -> Scriptable object use to create maximum value.
+TestScript Asset -> Object create by StatsScript
+testScript1 & 2 -> Exemple pour tester l'interaction avec le script Stats de chacun.
