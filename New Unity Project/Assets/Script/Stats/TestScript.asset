@@ -14,6 +14,6 @@ MonoBehaviour:
   maxHealth: 210
   maxOverHealth: 200
   maxShield: 50
-  maxSpeed: 400
+  maxSpeed: 100
   maxPhysicalDamage: 10
   maxMagicalDamage: 20

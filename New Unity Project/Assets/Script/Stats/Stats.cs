@@ -24,10 +24,11 @@ public class Stats : MonoBehaviour {
     public int magicalDamage;
 
     [Header("Other Settings")]
-    public int speed;
+    public float speed;
 
     [HideInInspector]
     public bool isDead = false;
+
 
     void Start()
     {
@@ -40,6 +41,9 @@ public class Stats : MonoBehaviour {
             Debug.LogWarning("STATS - Not able to initialize stats", gameObject);
         }
     }
+
+
+
 
     // Complete - Revive if needed
     public void RemoveHealth(int h)
@@ -128,11 +132,6 @@ public class Stats : MonoBehaviour {
         magicalDamage = stats.maxMagicalDamage;
         maxShield = stats.maxShield;
         maxOverHealth = stats.maxOverHealth;
-
-        if (stats.maxOverHealth > 0)
-        {
-            boolOverHeal = true;
-        } 
 
 
     }

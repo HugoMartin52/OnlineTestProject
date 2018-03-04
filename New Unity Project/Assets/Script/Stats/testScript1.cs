@@ -11,7 +11,9 @@ public class testScript1 : MonoBehaviour {
     public Stats targetStats;
     bool isTarget;
 
+    [Header("Press 1 to damage")]
     public int damageHealth = 50;
+    [Header("Press 2 to heal")]
     public int healHealth = 35;
    
 	void Start () {
